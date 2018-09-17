@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root 'messages#index'
+
   resources :articles
   resources :messages
   resources :contributions
